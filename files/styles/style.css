@@ -140,6 +140,8 @@ ul {
   margin-top: 1.5%;
   height: 18vh;
   justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 .left-buttom-side h2 {
   font-size: 30px;
@@ -240,7 +242,7 @@ ul {
   left: 95%;
   display: block;
   text-decoration: none;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: lighter;
   width: 100px;
   height: 50px;
@@ -250,6 +252,7 @@ ul {
 }
 
 .first-to-nextpage {
+  color: white;
   background-color: transparent;
   border: none;
   font-size: 30px;
