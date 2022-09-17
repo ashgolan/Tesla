@@ -1,9 +1,10 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   color: rgb(243, 240, 235);
-  font-family: "Gotham SSm", sans-serif;
+  font-family: "Gotham", sans-serif;
   font-weight: normal;
   text-decoration: none;
 }
@@ -136,12 +137,15 @@ ul {
 }
 .title-home-page {
   display: flex;
-  margin-top: 2%;
-  height: 20vh;
+  margin-top: 1.5%;
+  height: 18vh;
   justify-content: center;
 }
-h2 {
-  font-size: 60px;
+.left-buttom-side h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: rgb(53, 51, 51);
+  max-width: 200px;
 }
 .order-now,
 .order-now2 {
@@ -326,7 +330,7 @@ h2 {
   height: 100%;
   padding: 3%;
 }
-h2 {
+.safety-right h2 {
   color: rgb(53, 51, 51);
   font-size: 26px;
   margin-bottom: 50px;
@@ -411,6 +415,7 @@ h3 {
 .btn-bar-title {
   margin-top: 0;
   white-space: nowrap;
+  font-weight: bold;
 }
 .buttom-side {
   display: flex;
@@ -434,6 +439,7 @@ h3 {
 .left-buttom-side {
   display: flex;
   align-items: center;
+  white-space: nowrap;
   flex-direction: column;
   flex: 1 1 40%;
   padding: 2%;
