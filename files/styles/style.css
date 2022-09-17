@@ -132,6 +132,7 @@ ul {
 .right-part ul li a {
   white-space: nowrap;
   font-size: 14px;
+  font-weight: bold;
 }
 .title-home-page {
   display: flex;
